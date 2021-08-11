@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BudgetFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="180dp"
+        android:text="Nothing to Show"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="41dp"
+        android:layout_height="51dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="1dp"
+        android:clickable="true"
+        android:src="@drawable/icon1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+            android:layout_width="21dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="380dp"
+            android:clickable="true"
+            android:src="@drawable/refresh" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/balance"
+        android:layout_width="343dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/panel"
+        android:forceDarkAllowed="true"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:text="Balance"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="$2000"
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="30dp" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/info"
+        android:layout_width="343dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/panel"
+        android:forceDarkAllowed="true"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:text="Details"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="90dp"
+            android:text="Capital - 100000"
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="75dp"
+            android:text="Fixed Expense - 25000"
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="88dp"
+            android:text="Reserves - 15000"
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="25dp"
+            android:text="Investment - 20000"
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="15dp" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/tp"
+        android:layout_width="343dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/panel"
+        android:forceDarkAllowed="true"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/Tp"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:text="Top Priorities"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tp1"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="85dp"
+            android:layout_marginBottom="25dp"
+            android:text="1."
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tp2"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="85dp"
+            android:text="2."
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tp3"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="85dp"
+            android:text="3."
+            android:textAlignment="center"
+            android:textColor="#008000"
+            android:textSize="15dp" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</FrameLayout>

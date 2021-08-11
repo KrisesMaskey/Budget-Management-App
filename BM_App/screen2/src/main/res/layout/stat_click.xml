@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Budget for February"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="35dp"/>
+
+            <TextView
+                android:id="@+id/dollar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                                                 $"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/Capital2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:padding="8dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/invst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:padding="8dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/reserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:padding="8dp"
+
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/fe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:padding="8dp"
+                android:textSize="18sp"/><TextView
+            android:id="@+id/saving1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="viewStart"
+            android:padding="8dp"
+
+            android:textSize="18sp"/><TextView
+            android:id="@+id/invst1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+
+            <TextView
+            android:id="@+id/invst2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Expenses"
+            android:textAlignment="viewStart"
+            android:padding="8dp"
+            android:layout_marginTop="1dp"
+            android:textSize="20sp"/>
+
+            <ListView
+                android:id="@+id/recycle"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent1"
+                android:visibility="invisible" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

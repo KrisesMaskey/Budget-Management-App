@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Screen1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="269dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="Welcome to Budget Planner"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="464dp"
+        android:background="@drawable/vck"
+        android:ems="10"
+        android:hint=" Username"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+
+
+        android:textColorHint="#808080" />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="322dp"
+        android:background="@drawable/vck"
+        android:ems="10"
+        android:hint=" Password"
+
+        android:inputType="textPassword"
+        android:textAlignment="viewStart"
+        android:textColorHint="#808080" />
+
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="394dp"
+        android:background="@drawable/vck"
+        android:ems="10"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="viewStart"
+
+
+        android:textColorHint="#808080" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:onClick="AddData"
+        android:padding="12dp"
+        android:text="Register"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginBottom="182dp"
+        android:clickable="true"
+        android:text="Already Registered?"
+        android:onClick="openActivity"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="14dp"
+        android:text="* By registering you accept the Terms and Condition of Budget Planner"
+        android:textAlignment="center" />
+</RelativeLayout>

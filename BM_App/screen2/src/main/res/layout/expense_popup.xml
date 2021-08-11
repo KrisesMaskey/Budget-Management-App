@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="619dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="0dp"
+    android:layout_marginRight="2dp"
+    >
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/design_navigation_view"
+        android:layout_width="400dp"
+        android:layout_height="659dp"
+        android:layout_marginLeft="5dp"
+
+        android:background="@color/colorPrimary1"
+
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:background="@color/colorAccentDark"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="300dp"
+            android:text="Add Expense"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="251dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="260dp"
+            android:text="Please enter the details below"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent1" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="212dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="190dp"
+            android:entries="@array/list"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="144dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="110dp"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="147dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="30dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="144dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="-65dp"
+            android:text="Price"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="144dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="185dp"
+            android:text="Item"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/button"
+            android:clickable="true"
+            android:ems="2"
+            android:focusable="true"
+            android:padding="12dp"
+            android:text="Save"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="32dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="350dp"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="79dp"
+            android:layout_marginBottom="110dp"
+            android:background="@drawable/vck"
+            android:ems="10"
+            android:hint=" Name"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/pop"
+            android:layout_width="213dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="79dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/vck"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="72dp"
+            android:background="@drawable/vck"
+            android:ems="10"
+            android:hint=" Price"
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</LinearLayout>

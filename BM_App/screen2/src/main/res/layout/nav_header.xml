@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="112dp"
+            android:text="Krisma Maskey"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginBottom="6dp"
+            android:text="maskey_k@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="575dp"
+            android:background="@color/colorAccent1">
+
+
+            <TextView
+
+                android:id="@+id/current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableStart="@drawable/addbd"
+                android:text="Create New Budget"
+                android:drawablePadding="5dp"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="16dp"
+                android:textColor="#000"
+                android:clickable="true"
+                />
+            <TextView
+
+                android:id="@+id/stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableStart="@drawable/rising"
+                android:text="Statistics"
+                android:drawablePadding="5dp"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="168dp"
+                android:textColor="#000"
+                android:clickable="true"
+                />
+
+            <TextView
+
+                android:id="@+id/currentBD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_marginTop="70dp"
+                android:textAlignment="viewStart"
+                android:drawableStart="@drawable/wallet"
+                android:text="  Current Budget"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/previousBD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textAlignment="viewStart"
+                android:clickable="true"
+                android:drawableLeft= "@drawable/money"
+                android:text="  Previous Month's Balance"
+                android:textColor="#000"
+                android:layout_marginTop="118dp"/>
+
+        </com.google.android.material.navigation.NavigationView>
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+
+</RelativeLayout>

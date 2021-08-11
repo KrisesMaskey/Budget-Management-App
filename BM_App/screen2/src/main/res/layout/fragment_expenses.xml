@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpensesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Costly"
+        android:textSize="30sp" />
+
+    <ImageView
+
+        android:clickable="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="480dp"
+        android:id="@+id/imagea"
+        android:layout_width="38dp"
+        android:layout_height="46dp"
+        android:src="@drawable/add1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="21dp"
+        android:layout_height="24dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:src="@drawable/refresh" />
+
+    <ListView
+        android:id="@+id/recycle"
+        android:layout_width="392dp"
+        android:layout_height="357dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent1"
+        android:visibility="invisible"/>
+
+</FrameLayout>

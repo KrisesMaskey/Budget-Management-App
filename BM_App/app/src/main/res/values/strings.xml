@@ -1,0 +1,9 @@
+<resources>
+    <string name="screen2">Screen 2</string>
+    <string name="app_name">Button Click Tutorial</string>
+    <string name="welcome">AndroidBegin - Android Button Click New Activity Example</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Button">Button</string>
+
+</resources>
+
